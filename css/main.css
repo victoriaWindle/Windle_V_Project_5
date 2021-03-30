@@ -1,0 +1,202 @@
+
+.hidden {
+	display: none;
+}
+
+#container
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#nav {
+	background-color: #848484;
+	width: 100%;
+}
+
+#navMenu {
+	text-align: center;
+}
+
+#navMenu li {
+	display: inline;
+	font-size: 43px;
+	padding: 70px;
+}
+
+#heroImage {
+	background-color: #848484;
+	margin-top: 15px;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin: bottom: 10px;
+	height: 450px;
+	text-align: center;
+}
+
+#imageA {
+	background-color: #848484;
+	margin-left: 15px;
+	float: left;
+	width: 49%;
+	height: 220px;
+	margin-top: 10px;
+
+}
+
+#textA {
+	background-color: #848484;
+	margin-right: 15px;
+	margin-top: 10px;
+	height: 220px;
+	width: 48%;
+	float: right;
+}
+
+#slogan {
+	background-color: #848484; 
+	margin-left: 5px;
+	height: 210px;
+	margin-top: 25px;
+	float: left;
+	width: 59%;
+}
+
+#imageB {
+	background-color: #848484; 
+	margin-right: 5px;
+	height: 210px;
+	float: right;
+	margin-top: 25px;
+	margin-left: 5px;
+	width: 39%;
+}
+
+#footerMenu {
+	background-color: #848484;
+	margin-top: 480px;
+	width: 48%;
+	height: 205px;
+	margin-left: 5px;
+
+}
+
+#footerMenu li {
+	margin: 5px;
+}
+
+	#imageC {
+		background-color: #848484;
+		float: right;
+		margin-top: -200px;
+		width: 49%;
+		height: 130px;
+		margin-right: 5px;
+}
+
+	#socialMedia {
+		background-color: #848484;
+		position: relative;
+		float: right;
+		width: 49%;
+		height: 70px;
+		margin-right: 5px;
+		margin-top: -60px;
+}
+
+
+
+@media screen and (max-width: 641px)
+
+{
+	#navMenu {
+		text-align: center;
+		height: 30px;
+	}
+
+	#navMenu li {
+		font-size: 20px;
+		padding: 5px;
+		margin-top: 5px;
+	}
+
+	#heroImage {
+		background-color: #848484;
+		margin-top: 15px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin: bottom: 10px;
+		height: 170px;
+		text-align: center;
+	}
+
+	#imageA {
+		background-color: #848484;
+		margin-left: 5px;
+		float: left;
+		width: 47%;
+		height: 130px;
+		margin-top: 10px;
+		margin-right: 5px;
+	}
+
+	#textA {
+		background-color: #848484;
+		margin-right: 5px;
+		margin-top: 10px;
+		height: 130px;
+		width: 47%;
+		float: right;
+	}
+
+	#slogan {
+		background-color: #848484;
+		margin-left: 5px;
+		height: 115px;
+		margin-top: 10px;
+		float: left;
+		width: 57%;
+	}
+
+	#imageB {
+		background-color: #848484;
+		margin-right: 5px;
+		height: 115px;
+		float: right;
+		margin-top: 10px;
+		margin-left: 5px;
+		width: 38%;
+	}
+
+	#footerMenu {
+		background-color: #848484;
+		margin-top: 270px;
+		width: 48%;
+		height: 130px;
+		margin-left: 5px;
+	}
+
+	#footerMenu li {
+		margin: 5px;
+		font-size: 10px;
+	}
+
+	#imageC {
+		background-color: #848484;
+		float: right;
+		margin-top: -130px;
+		width: 47%;
+		height: 70px;
+		margin-right: 5px;
+	}
+
+	#socialMedia {
+		background-color: #848484;
+		position: relative;
+		float: right;
+		width: 47%;
+		height: 30px;
+		margin-right: 5px;
+		margin-top: -30px;
+	}
+}
