@@ -23,6 +23,7 @@
 	font-size: 43px;
 	padding: 20px;
 
+
 }
 
 
@@ -31,6 +32,7 @@
 {
 	#navMenu {
 		text-align: center;
+		height: 30px;
 	}
 
 	#navMenu li {
@@ -39,7 +41,7 @@
 
 	#heroImage {
 		background-color: #848484;
-		margin-top: 20px;
+		margin-top: 15px;
 		margin-left: 5px;
 		margin-right: 5px;
 		margin: bottom: 10px;
@@ -50,6 +52,59 @@
 	#imageA {
 		background-color: #848484;
 		margin-left: 5px;
-		width: 90px;
+		float: left;
+		width: 47%;
+		height: 130px;
+		margin-top: 10px;
+		margin-right: 5px;
+	}
+
+	#textA {
+		background-color: #848484;
+		margin-right: 5px;
+		margin-top: 10px;
+		height: 130px;
+		width: 47%;
+		float: right;
+	}
+
+	#slogan {
+		background-color: #848484;
+		margin-left: 5px;
+		height: 115px;
+		margin-top: 10px;
+		float: left;
+		width: 57%;
+	}
+
+	#imageB {
+		background-color: #848484;
+		margin-right: 5px;
+		height: 115px;
+		float: right;
+		margin-top: 10px;
+		margin-left: 5px;
+		width: 38%;
+	}
+
+	#footerMenu {
+		background-color: #848484;
+		margin-top: 10px;
+		width: 50%;
+		height: 130px;
+	}
+	#footerMenu li {
+		margin: 5px;
+	}
+
+	#imageC {
+		background-color: #848484;
+		float: right;
+	}
+
+	#socialMedia {
+		background-color: #848484;
+		position: relative;
+		float: right;
 	}
 }
